@@ -232,4 +232,4 @@ sending a change, and say which tablet and distribution you tested on.
 
 ## License
 
-No license has been chosen yet. Until one is added, all rights are reserved.
+MIT. See [LICENSE](LICENSE).
