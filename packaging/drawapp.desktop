@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Draw app
+Comment=Draw over any app with a pen tablet
+Exec=drawapp
+Icon=drawapp
+Terminal=false
+Categories=Graphics;Utility;
+Keywords=annotate;pen;tablet;screenshot;highlight;

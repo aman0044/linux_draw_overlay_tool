@@ -1,0 +1,25 @@
+[project]
+name = "drawapp"
+version = "0.1.0"
+description = "Draw over any app with a pen tablet"
+readme = "README.md"
+authors = [
+    { name = "aman0044", email = "amangupta0044@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pyside6-essentials>=6.12.0",
+    "python-xlib>=0.33",
+]
+
+[project.scripts]
+drawapp = "drawapp:main"
+
+[build-system]
+requires = ["uv_build>=0.11.0,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
